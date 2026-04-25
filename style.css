@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
 }
 
 /* Header */
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #111;
+  background: #111;
   padding: 15px 30px;
 }
 
@@ -34,14 +34,13 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
 }
 
 .navbar a:hover {
   color: #00adb5;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -53,7 +52,7 @@ body {
   padding: 50px 20px;
 }
 
-/* Container */
+/* Layout */
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -65,8 +64,8 @@ body {
 .card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Footer */
@@ -75,5 +74,4 @@ footer {
   padding: 15px;
   background: #111;
   color: white;
-  margin-top: 20px;
 }
