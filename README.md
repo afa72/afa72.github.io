@@ -1,7 +1,29 @@
-Ahmad A Website
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My IT Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Name: Ahmad Albakr 
+<header>
+  <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ethics.html">Ethics</a></li>
+    </ul>
+  </nav>
+</header>
 
-hobbies: Lifing in the gym, Making new friends, gaming, coding, chilling with family
+<div class="container">
+  <h1>Welcome</h1>
+  <p>This website explores topics in Information Technology and Ethics.</p>
+  <p>Use the navigation menu above to explore different pages.</p>
+</div>
 
-intersed in it: To get better at coding for the future and know how to make awsome websites
+<footer>
+  <p>© 2026 My IT Website</p>
+</footer>
+
+</body>
+</html>
